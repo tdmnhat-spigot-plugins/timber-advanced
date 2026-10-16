@@ -1,0 +1,8 @@
+name: TimberAdvanced
+description: $description
+version: '${version}'
+
+main: dev.tdmnhat.plugin.spigot.TimberAdvanced
+api-version: '26.1'
+
+authors: [ tdminhnhat ]
