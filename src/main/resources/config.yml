@@ -1,0 +1,20 @@
+##################################
+#                                #
+#         TimberAdvanced         #
+#                                #
+##################################
+
+# TimberAdvanced is a plugin supports the user destroys the tree easier. Just break the root wood all the tree will be fall down, and you can get some woods. This plugin has been created by @tdminhnhat
+
+# Prefix plugin, this will be appeared in the first message when this plugin sends
+prefix-plugin: "&e[&bTimber Advanced&e]"
+
+# When the executor doesn't have any permission for their actions, send this message to them
+no-permission: "&cYou don't have permission to do this"
+
+timber-toggle:
+  # Set true/false to this plugin like turn on/off the fast destroy tree. If you set "false", the user will destroy the tree original, set "true" to allow the user destroy tree faster.
+  enable: true
+  # The message for toggling this plugin
+  message: "&aThe Timber Advanced now is set to &c%timber_advanced_toggle%"
+

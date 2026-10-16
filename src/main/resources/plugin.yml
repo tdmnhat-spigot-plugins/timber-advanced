@@ -6,3 +6,9 @@ main: dev.tdmnhat.plugin.spigot.TimberAdvanced
 api-version: '26.1'
 
 authors: [ tdminhnhat ]
+
+command:
+  timberadvanced:
+    permission: timberadvanced.command
+    default: op
+    usage: /<command>
